@@ -67,28 +67,28 @@ public class GenericsSetsMapsLab {
 ////////Lab #4////////
 //////////////////////
         
-        List<Employee> employees = new ArrayList<Employee>();
-        Employee e1 = new Employee("Ben", "Gardner", "111-11-1111");
-        Employee e2 = new Employee("John", "Jones", "111-11-1111");
-        Employee e3 = new Employee("Greg", "Clark", "222-22-2222");
-        Employee e4 = new Employee("Jim", "Lombardo", "333-33-3333");
-        
-        employees.add(e1);
-        employees.add(e2);
-        employees.add(e3);
-        employees.add(e4);
-        
-        Set<Employee> setEmployees = new HashSet<Employee>(employees);
-        List<Employee> newListEmployees = new ArrayList<Employee>(setEmployees);
-       
-        System.out.println("Outputting List Lab"
-                + "\n-----------------");
-        System.out.println("employee list size: " + newListEmployees.size());
-        
-        System.out.println("\nAll employees in the table: ");
-        for(Employee e : newListEmployees){
-            System.out.println(e);
-        }
+//        List<Employee> employees = new ArrayList<Employee>();
+//        Employee e1 = new Employee("Ben", "Gardner", "111-11-1111");
+//        Employee e2 = new Employee("John", "Jones", "111-11-1111");
+//        Employee e3 = new Employee("Greg", "Clark", "222-22-2222");
+//        Employee e4 = new Employee("Jim", "Lombardo", "333-33-3333");
+//        
+//        employees.add(e1);
+//        employees.add(e2);
+//        employees.add(e3);
+//        employees.add(e4);
+//        
+//        Set<Employee> setEmployees = new HashSet<Employee>(employees);
+//        List<Employee> newListEmployees = new ArrayList<Employee>(setEmployees);
+//       
+//        System.out.println("Outputting List Lab"
+//                + "\n-----------------");
+//        System.out.println("employee list size: " + newListEmployees.size());
+//        
+//        System.out.println("\nAll employees in the table: ");
+//        for(Employee e : newListEmployees){
+//            System.out.println(e);
+//        }
         
 ////////////////////        
 ////////Lab #5//////
