@@ -106,6 +106,11 @@ public class GenericsSetsMapsLab {
 //        employees.put(e3.getSsn(), e3);
 //        employees.put(e4.getSsn(), e4);
 //        
+//        //RETRIEVE INDIVIDUAL ITEM
+//        Employee e = employees.get("111-11-1111");
+//        System.out.println(e);
+//        
+//        
 //        Collection<Employee> employeeValues= employees.values();
 //       
 //        System.out.println("Outputting Map Lab #5"
